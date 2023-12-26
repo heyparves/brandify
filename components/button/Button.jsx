@@ -23,26 +23,27 @@ const Button = ({
         disabled:cursor-not-allowed
         hover:opacity-80
         transition
-        ${outline ? "bg-transparent" : "bg-neutral-800"}
-        ${outline ? "border-neutral-800" : "border-neutral-800"}
+        tracking-widest
+        ${outline ? "bg-transparent" : "bg-primary"}
+        ${outline ? "border-primary" : "border-transparent"}
         ${outline ? "text-black" : "text-white"}
         ${small ? "text-sm" : "text-md"}
         ${small ? "py-1" : "py-3"}
         ${large ? "py-5" : "py-3"}
         ${large ? "text-lg" : "text-md"}
-        ${small ? "font-light" : "font-semibold"}
+        ${small ? "font-light" : "font-normal"}
         ${small ? "border-[1px]" : "border-2"}
-        ${lwidth ? "w-[300px]" : "w-full"}
+        ${lwidth ? "w-[350px]" : "w-full"}
 
       `}
     >
       {Icon && (
         <Icon
-          size={24}
+          size={30}
           className="
             absolute
-            left-4
-            top-3
+            right-4
+            top-5
           "
         />
       )}

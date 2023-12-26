@@ -5,11 +5,13 @@ import styles from "../../styles";
 import { slideIn, staggerContainer, textVariant } from "../../utils/motion";
 import Button from "../button/Button";
 import MainHeading from "../heading/MainHeading";
+import { GoArrowUpRight } from "react-icons/go";
+import PrimaryHeading from "../heading/PrimaryHeading";
 
-const Hero = () => {
+const Hero = ({ title, subtitle, onClick }) => {
   return (
     <section
-      className={`bg-[#D6DCE1] w-[100%] h-[100%] object-scale-[10p] bg-righ-top sm:pl-16 pl-6 overflow-hidden z-[1]`}
+      className={`bg-[#D6DCE1] w-[100%] h-[100%] lg:h-[90vh] object-scale-[10p] bg-righ-top sm:pl-16 pl-6 overflow-hidden z-[1]`}
     >
       <motion.div
         variants={staggerContainer}
@@ -29,8 +31,12 @@ const Hero = () => {
                 <div className={`${styles.heroDText}`} />
               </div>
 
-              <Button label="Learn More" large lwidth />
-              <Button label="Learn More" outline large lwidth />
+              <Button
+                label="LET'S BUILD TOGETHER"
+                icon={GoArrowUpRight}
+                large
+                lwidth
+              />
             </div>
           </motion.div>
         </div>
@@ -44,7 +50,7 @@ const Hero = () => {
         playsInline
         type="video/mp4"
         controls={false}
-        className="video"
+        className="hero-video"
       />
     </section>
   );

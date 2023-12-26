@@ -1,9 +1,13 @@
 const styles = {
-  innerWidth: "2xl:max-w-[1280px] w-full",
-  interWidth: "lg:w-[80%] w-[100%]",
+  innerWidth: "2xl:max-w-[1280px] w-[100vw] 2xl:ml-[auto] 2xl:mr-[auto] ",
+
+  // Colors
+  primaryBgColor: "bg-blue-500",
+  primaryBorderColor: "border-blue-500",
+  primaryColor: "bg-blue-500",
 
   paddings: "sm:p-16 xs:p-8 px-6 py-12",
-  yPaddings: "sm:py-16 xs:py-8 py-12",
+  yPaddings: "py-[5em] sm:py-[5em] xs:py-[5em] lg:py-[10em]",
   xPaddings: "sm:px-16 px-6",
   topPaddings: "sm:pt-16 xs:pt-8 pt-12",
   bottomPaddings: "sm:pb-16 xs:pb-8 pb-12",

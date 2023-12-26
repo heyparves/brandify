@@ -9,11 +9,13 @@ import {
   WhatsNew,
   World,
 } from "../sections";
+import Services from "@/components/Services";
 
 const Page = () => (
   <div className="overflow-hidden">
     <Navbar />
     <Hero />
+    <Services />
     <About />
     <Explore />
     <GetStarted />
