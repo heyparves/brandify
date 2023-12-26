@@ -4,7 +4,6 @@ import PrimaryHeading from "./heading/PrimaryHeading";
 import styles from "@/styles";
 import { fadeIn, staggerContainer } from "../utils/motion";
 import { motion } from "framer-motion";
-import ContentText from "./heading/contentText";
 import Blurb from "./Blurb";
 import { GoArrowUpRight } from "react-icons/go";
 
