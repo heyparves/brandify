@@ -4,13 +4,12 @@ import { motion } from "framer-motion";
 import styles from "../../styles";
 import { slideIn, staggerContainer, textVariant } from "../../utils/motion";
 import Button from "../button/Button";
-import { fa } from "react-icons";
+
 const Hero = () => {
   return (
     <section
-      className={`${styles.yPaddings} bg-[#D6DCE1] w-[100%] h-[100%] object-scale-[10p] bg-righ-top sm:pl-16 pl-6`}
+      className={`bg-[#D6DCE1] w-[100%] h-[100%] object-scale-[10p] bg-righ-top sm:pl-16 pl-6 overflow-hidden`}
     >
-      <video src="/videoBg.mp4" autoPlay muted loop className="video" />
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -40,24 +39,18 @@ const Hero = () => {
         >
           <video src="@/public/videoBg.mp4" />
           <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
-
-          <video
-            src="/images/facebook.svg"
-            alt="hero_cover"
-            className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
-          />
-
-          <a href="#explore">
-            <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
-              <img
-                src="/stamp.png"
-                alt="stamp"
-                className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain"
-              />
-            </div>
-          </a>
         </motion.div>
       </motion.div>
+      <video
+        src="/videoBg.mp4"
+        typeof="video/mp4"
+        autoPlay
+        muted
+        loop
+        preload
+        controls={false}
+        className="video"
+      />
     </section>
   );
 };
