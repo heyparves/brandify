@@ -16,14 +16,11 @@ const Page = () => (
     <Navbar />
     <Hero />
     <Services />
-    <About />
-    <Explore />
-    <GetStarted />
-    <WhatsNew />
-    <World />
-    <Insights />
-    <Feedback />
-    <Footer />
+    <Services />
+    <Services />
+    <Services />
+    <Services />
+    <Services />
   </div>
 );
 
