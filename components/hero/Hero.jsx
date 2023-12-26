@@ -32,14 +32,6 @@ const Hero = () => {
             </div>
           </motion.div>
         </div>
-
-        <motion.div
-          variants={slideIn("right", "tween", 0.2, 1)}
-          className="relative w-full md:-mt-[20px] -mt-[12px]"
-        >
-          <video src="@/public/videoBg.mp4" />
-          <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
-        </motion.div>
       </motion.div>
       <video
         src="/videoBg.mp4"
