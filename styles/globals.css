@@ -105,7 +105,13 @@
   right: 0;
   width: 50%; /* Adjust the size */
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
   object-position: left;
-  z-index: 10;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .video {
+    width: 80% !important;
+  }
 }

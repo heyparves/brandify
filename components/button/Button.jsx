@@ -33,7 +33,7 @@ const Button = ({
         ${large ? "text-lg" : "text-md"}
         ${small ? "font-light" : "font-semibold"}
         ${small ? "border-[1px]" : "border-2"}
-        ${lwidth ? "w-[300px]" : "w-full"}
+        ${lwidth ? "w-[350px]" : "w-full"}
 
       `}
     >

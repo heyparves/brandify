@@ -14,14 +14,14 @@ const Page = () => (
   <div className="overflow-hidden">
     <Navbar />
     <Hero />
-    <About />
+    {/* <About />
     <Explore />
     <GetStarted />
     <WhatsNew />
     <World />
     <Insights />
     <Feedback />
-    <Footer />
+    <Footer /> */}
   </div>
 );
 
