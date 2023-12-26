@@ -108,6 +108,7 @@
   object-fit: cover;
   object-position: left;
   z-index: 2;
+  max-width: 800px;
 }
 /* Mobile Css */
 @media only screen and (max-width: 768px) {

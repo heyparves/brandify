@@ -8,10 +8,10 @@ import MainHeading from "../heading/MainHeading";
 import { GoArrowUpRight } from "react-icons/go";
 import PrimaryHeading from "../heading/PrimaryHeading";
 
-const Hero = ({ title, subtitle, onClick }) => {
+const Hero = () => {
   return (
     <section
-      className={`bg-[#D6DCE1] w-[100%] h-[100%] lg:h-[90vh] object-scale-[10p] bg-righ-top sm:pl-16 pl-6 overflow-hidden z-[1]`}
+      className={`bg-[#D6DCE1] w-[100%] h-[100%] lg:h-[90vh] overflow-hidden z-[1]`}
     >
       <motion.div
         variants={staggerContainer}

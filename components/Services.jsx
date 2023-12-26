@@ -26,11 +26,10 @@ const Services = () => {
           />
         </motion>
 
-        <div className="flex flex-row flex-wrap items-center justify-center w-full">
+        <div className="flex flex-row md:flex-wrap sm:flex-wrap items-center justify-center w-full">
           <div className="flex flex-col justify-center items-center  lg:w-[30%] ">
             <Blurb
-              title="This is a title text"
-              subtitle="this is subtitle text"
+              title="Web Applications"
               description="Ok this is description text where you can add any text that need to show here"
               icon={GoArrowUpRight}
             />
@@ -41,7 +40,7 @@ const Services = () => {
               icon={GoArrowUpRight}
             />
           </div>
-          <div className="flex flex-col justify-center items-center lg:w-[40%] order-first">
+          <div className="flex flex-col justify-center items-center lg:w-[40%] sm:order-first">
             <video
               src="/video/services.mp4"
               autoPlay

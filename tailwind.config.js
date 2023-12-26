@@ -8,6 +8,9 @@ module.exports = {
   ],
   mode: "jit",
   theme: {
+    screens: {
+      sm: { max: "639px" },
+    },
     extend: {
       boxShadow: {
         spread: "0 35px 60px -15px rgba(0, 0, 0, 0.3)",

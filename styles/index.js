@@ -1,5 +1,5 @@
 const styles = {
-  innerWidth: "2xl:max-w-[1280px] w-[100%] 2xl:ml-[auto] 2xl:mr-[auto]",
+  innerWidth: "max-w-[1366px] w-[100%] ml-[auto] mr-[auto]",
 
   // Colors
   primaryBgColor: "bg-blue-500",
@@ -8,7 +8,7 @@ const styles = {
 
   paddings: "sm:p-16 xs:p-8 px-6 py-12",
   yPaddings: "py-[5em] sm:py-[5em] xs:py-[5em] lg:py-[10em]",
-  xPaddings: "sm:px-16 px-6",
+  xPaddings: "sm:px-5 px-6",
   topPaddings: "sm:pt-16 xs:pt-8 pt-12",
   bottomPaddings: "sm:pb-16 xs:pb-8 pb-12",
 
