@@ -9,7 +9,9 @@ import { GoArrowUpRight } from "react-icons/go";
 
 const Services = () => {
   return (
-    <div className={`${styles.innerWidth} ${styles.yPaddings}`}>
+    <div
+      className={`${styles.innerWidth} ${styles.yPaddings} ${styles.xPaddings}`}
+    >
       <motion
         variants={staggerContainer}
         initial="hidden"
@@ -24,8 +26,8 @@ const Services = () => {
           />
         </motion>
 
-        <div className="flex flex-row items-center justify-center w-full  ">
-          <div className="flex flex-col flex-wrap justify-center items-center  w-[30%]">
+        <div className="flex flex-row flex-wrap items-center justify-center w-full">
+          <div className="flex flex-col justify-center items-center  lg:w-[30%] ">
             <Blurb
               title="This is a title text"
               subtitle="this is subtitle text"
@@ -39,7 +41,7 @@ const Services = () => {
               icon={GoArrowUpRight}
             />
           </div>
-          <div className="flex flex-col justify-center items-center w-[40%]">
+          <div className="flex flex-col justify-center items-center lg:w-[40%] order-first">
             <video
               src="/video/services.mp4"
               autoPlay
@@ -52,7 +54,7 @@ const Services = () => {
               className="object-cover w-[100%] h-[100%] z-[-1]"
             />
           </div>
-          <div className="flex flex-col justify-center items-center   w-[30%]">
+          <div className="flex flex-col justify-center items-center lg:w-[30%] ">
             <Blurb
               title="This is a title text"
               subtitle="this is subtitle text"
