@@ -62,7 +62,7 @@ const Services = () => {
             <Blurb
               title="This is a title text"
               subtitle="this is subtitle text"
-              description="Ok this is description text where you can add any text that need to show here"
+              description="Ok thiss is description text where you can add any text that need to show here"
               icon={GoArrowUpRight}
             />
           </div>
