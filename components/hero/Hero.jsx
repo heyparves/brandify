@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import styles from "../../styles";
 import { slideIn, staggerContainer, textVariant } from "../../utils/motion";
 import Button from "../button/Button";
+import MainHeading from "../heading/MainHeading";
 
 const Hero = () => {
   return (
@@ -19,16 +20,17 @@ const Hero = () => {
       >
         <div className="flex justify-center items-center flex-col h-[800px] relative z-10">
           <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
-            Build & Grow
+            <MainHeading title="BUILD & GROW" center />
           </motion.h1>
           <motion.div variants={textVariant(1.2)}>
             <div className="flex flex-col justify-center items-center gap-10">
               <div className="flex flex-row gap-0">
-                <h1 className={styles.heroHeading}>Bran</h1>
+                <MainHeading title="BRAND" center />
                 <div className={`${styles.heroDText}`} />
               </div>
 
               <Button label="Learn More" large lwidth />
+              <Button label="Learn More" outline large lwidth />
             </div>
           </motion.div>
         </div>

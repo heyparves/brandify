@@ -109,3 +109,9 @@
   object-position: left;
   z-index: 2;
 }
+
+@media only screen and (max-width: 768px) {
+  .video {
+    width: 90%;
+  }
+}

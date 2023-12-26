@@ -23,8 +23,7 @@ const Button = ({
         disabled:cursor-not-allowed
         hover:opacity-80
         transition
-        w-full
-        ${outline ? "bg-white" : "bg-neutral-800"}
+        ${outline ? "bg-transparent" : "bg-neutral-800"}
         ${outline ? "border-neutral-800" : "border-neutral-800"}
         ${outline ? "text-black" : "text-white"}
         ${small ? "text-sm" : "text-md"}
