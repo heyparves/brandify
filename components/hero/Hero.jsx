@@ -35,11 +35,12 @@ const Hero = () => {
       </motion.div>
       <video
         src="/videoBg.mp4"
-        typeof="video/mp4"
         autoPlay
         muted
         loop
         preload
+        playsInline
+        type="video/mp4"
         controls={false}
         className="video"
       />
