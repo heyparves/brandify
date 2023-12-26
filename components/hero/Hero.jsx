@@ -27,7 +27,7 @@ const Hero = () => {
           <motion.div variants={textVariant(1.2)}>
             <div className="flex flex-col justify-center items-center gap-10">
               <div className="flex flex-row gap-0">
-                <MainHeading title="BRAND" center />
+                <MainHeading title="BRAN" center />
                 <div className={`${styles.heroDText}`} />
               </div>
 
