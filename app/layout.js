@@ -1,8 +1,9 @@
 import "../styles/globals.css";
 
 export const metadata = {
-  title: "Build & Grow Brand  - BigBrandify",
-  description: "Airbnb Clone",
+  title: "Build & Grow Branding  - BigBrandify",
+  description:
+    "From Branding on online to sale, We provide best solutions to success and grow online",
 };
 
 const RootLayout = ({ children }) => (
