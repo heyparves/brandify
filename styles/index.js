@@ -1,5 +1,5 @@
 const styles = {
-  innerWidth: "2xl:max-w-[1280px] w-[100vw] 2xl:ml-[auto] 2xl:mr-[auto] ",
+  innerWidth: "2xl:max-w-[1280px] w-[100%] 2xl:ml-[auto] 2xl:mr-[auto]",
 
   // Colors
   primaryBgColor: "bg-blue-500",
